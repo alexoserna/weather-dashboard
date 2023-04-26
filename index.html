@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <section class="grid">
+        <div class="search">
+            <div id="input-section">
+                <h2>Search for a City:</h2>
+                <input type="text" name="city" id="search-city" />
+                <button type="submit" name="search" id="search-btn">Search</button>
+            </div>
+            <div id="search-results">
+                <div class="search-history">
+                    <p id="searched-city">Atlanta</p>
+                </div>
+            </div>
+        </div>
+        <div class="result">
+            <div id="city-profile">
+                <h2 id="city-name">Atlanta 9/22/2022</h2>
+                <p id="pro-temp">Temp: </p>
+                <p id="pro-wind">Wind: </p>
+                <p id="pro-humidy">Humidity: </p>
+            </div>
+            <div id="5-day">
+                <div id="day-card">
+                    <h4 id="card-date">9/14/2022</h4>
+                    <div id="icon"></div>
+                    <p id="temp">Temp: </p>
+                    <p id="wind">Wind: </p>
+                    <p id="humidy">Humidity: </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
