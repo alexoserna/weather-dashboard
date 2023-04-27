@@ -138,7 +138,7 @@ input:focus {
     flex-wrap: wrap;
 }
 
-#current-weather h2 {
+#current-weather div {
     margin-right: 40px;
 }
 
