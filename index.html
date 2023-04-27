@@ -17,31 +17,68 @@
 
     <section class="grid">
         <div class="search">
-            <div id="input-section">
+            <div id="input-section" class="max-width">
                 <h2>Search for a City:</h2>
-                <input type="text" name="city" id="search-city" />
-                <button type="submit" name="search" id="search-btn">Search</button>
-            </div>
-            <div id="search-results">
-                <div class="search-history">
-                    <p id="searched-city">Atlanta</p>
+                <input type="text" name="city" id="city-input" class="shadow" />
+                <div>
+                    <button type="submit" name="search" id="search-btn" class="btn shadow">Search</button>
                 </div>
+            </div>
+            <div id="search-history" class="max-width">
+                <button type="submit" name="search" id="search-history-btn" class="btn shadow">Chicago</button>
+                <button type="submit" name="search" id="search-history-btn" class="btn shadow">Atlanta</button>
+                <button type="submit" name="search" id="search-history-btn" class="btn shadow">Austin</button>
+            </div>
+            <div id="clear">
+                <button type="submit" name="search" id="clear-search" class="btn shadow">Clear Search History</button>
             </div>
         </div>
         <div class="result">
-            <div id="city-profile">
-                <h2 id="city-name">Atlanta 9/22/2022</h2>
-                <p id="pro-temp">Temp: </p>
-                <p id="pro-wind">Wind: </p>
-                <p id="pro-humidy">Humidity: </p>
+            <div id="current-weather" class="shadow">
+                <h2>Atlanta 9/22/2022</h2>
+                <p>Temp: </p>
+                <p>Wind: </p>
+                <p>Humidity: </p>
             </div>
-            <div id="5-day">
-                <div id="day-card">
-                    <h4 id="card-date">9/14/2022</h4>
-                    <div id="icon"></div>
-                    <p id="temp">Temp: </p>
-                    <p id="wind">Wind: </p>
-                    <p id="humidy">Humidity: </p>
+            <div class="five-day">
+                <h3>5-Day Forecast:</h3>
+                <div id="forecast-container">
+                    <div class="forecast-card shadow">
+                        <h4>9/14/2022</h4>
+                        <span></span>
+                        <p>Temp: </p>
+                        <p>Wind: </p>
+                        <p>Humidity: </p>
+                    </div>
+                    <div class="forecast-card shadow">
+                        <h4>9/14/2022</h4>
+                        <span></span>
+                        <p>Temp: </p>
+                        <p>Wind: </p>
+                        <p>Humidity: </p>
+                    </div>
+                    <div class="forecast-card shadow">
+                        <h4>9/14/2022</h4>
+                        <span></span>
+                        <p>Temp: </p>
+                        <p>Wind: </p>
+                        <p>Humidity: </p>
+                    </div>
+                    <div class="forecast-card shadow">
+                        <h4>9/14/2022</h4>
+                        <span></span>
+                        <p>Temp: </p>
+                        <p>Wind: </p>
+                        <p>Humidity: </p>
+                    </div>
+                    <div class="forecast-card shadow">
+                        <h4>9/14/2022</h4>
+                        <span></span>
+                        <p>Temp: </p>
+                        <p>Wind: </p>
+                        <p>Humidity: </p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
